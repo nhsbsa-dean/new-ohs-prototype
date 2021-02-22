@@ -1,0 +1,214 @@
+{% extends "layout_bsa.html" %}
+{% block page_title %}
+
+   Overseas Healthcare Prototype
+
+{% endblock %}
+{% block content %}
+<style>
+   .versions-prod:before {
+   content: "USABILITY TESTING";
+   position: absolute;
+   top: 0;
+   left: 0;
+   padding: 0.2105263158em 0.7894736842em 0.2105263158em 0.7894736842em;
+   font-family: Arial, sans-serif;
+   font-weight: 400;
+   text-transform: none;
+   font-size: 16px;
+   line-height: 1.25;
+   background: #2360AC;
+   color: white;
+   }
+   .versions-prod {
+   position: relative;
+   overflow: hidden;
+   border: 3px solid #2360AC;
+   margin-top: 30px;
+   margin-bottom: 35px;
+   padding-top: 15px;
+   padding-right: 15px;
+   padding-bottom: 15px;
+   padding-left: 15px;
+   }
+   @media (min-width: 641px) {
+   .versions-prod {
+   padding-top: 50px;
+   padding-right: 30px;
+   padding-bottom: 20px;
+   padding-left: 30px;
+   }
+   }
+   .versions:before {
+   content: "RESEARCH";
+   position: absolute;
+   top: 0;
+   left: 0;
+   padding: 0.2105263158em 0.7894736842em 0.2105263158em 0.7894736842em;
+   font-family: Arial, sans-serif;
+   font-weight: 400;
+   text-transform: none;
+   font-size: 16px;
+   line-height: 1.25;
+   background: #bfc1c3;
+   color: white;
+   }
+   .versions-alpha {
+   position: relative;
+   overflow: hidden;
+   border: 3px solid #D53880;
+   margin-top: 30px;
+   margin-bottom: 35px;
+   padding-top: 15px;
+   padding-right: 15px;
+   padding-bottom: 15px;
+   padding-left: 15px;
+   }
+   @media (min-width: 641px) {
+   .versions-alpha {
+   padding-top: 50px;
+   padding-right: 30px;
+   padding-bottom: 20px;
+   padding-left: 30px;
+   }
+   }
+   .versions-alpha:before {
+   content: "ALPHA";
+   position: absolute;
+   top: 0;
+   left: 0;
+   padding: 0.2105263158em 0.7894736842em 0.2105263158em 0.7894736842em;
+   font-family: Arial, sans-serif;
+   font-weight: 400;
+   text-transform: none;
+   font-size: 16px;
+   line-height: 1.25;
+   background: #D53880;
+   color: white;
+   }
+   .versions {
+   position: relative;
+   overflow: hidden;
+   border: 3px solid #bfc1c3;
+   margin-top: 30px;
+   margin-bottom: 35px;
+   padding-top: 15px;
+   padding-right: 15px;
+   padding-bottom: 15px;
+   padding-left: 15px;
+   }
+   hr {
+   display: block;
+   background: #bfc1c3;
+   border: 0;
+   height: 1px;
+   margin-top: 30px;
+   margin-bottom: 30px;
+   padding: 0;
+   }
+</style>
+<!--
+   Button
+   <a href="v9_0/admin/ut/windows-login"><input class="button" type="submit" value="Open"></a> 
+   -->
+<main id="content" role="main">
+   <div class="grid-row">
+      <div class="column-full">
+         <h1 class="heading-xlarge">
+            <span class="heading-secondary" style="padding:0;">NHSBSA Design</span>
+            Overseas Healthcare Services Prototype
+            <span class="heading-medium" style="padding:0;">Version 2.0</span>
+         </h1>
+
+         <!-- ================================
+         USABILITY TESTING
+         ===================================== -->
+         <!-- <div class="versions-prod">
+            <h3>
+               <span class="strong">Title</span>
+            </h3>
+            <ul class="list list-bullet"> -->
+               <!-- <li></li> -->
+            <!-- </ul>
+            <details>
+               <summary>
+                  <span class="summary">Version 1</span>
+               </summary>
+               <ul class="list list-bullet">
+                  <li>1. Description<a href="#">(link)</a></li>
+               </ul>
+            </details>
+            <hr>
+         </div> -->
+
+         <!-- ================================
+         CRA
+         ===================================== -->
+         <h2 class="heading-medium">Citizens Rights Agreement (EHIC)</h2>
+         <a href="cra">Citizens Rights Agreement (EHIC)</a> 
+
+         <hr>
+
+         <!-- ================================
+         CRA
+         ===================================== -->
+         <h2 class="heading-medium">S1 DWP intergration</h2>
+         <a href="dwp">S1 DWP intergration</a> 
+
+         <hr>
+
+         <!-- ================================
+         ADMIN
+         ===================================== -->
+         <!-- <h2 class="heading-medium">Admin</h2>
+         <table>
+            <thead>
+               <tr>
+                  <th>Journey</th>
+                  <th>Link</th>
+                  <th>Description</th>
+               </tr>
+            </thead>
+            <tbody>
+               <tr>
+                  <td valign="top">Journey</td>
+                  <td>
+                     <a href="#">Link</a><br>
+                  </td>
+                  <td>
+                     Description
+                  </td>
+               </tr>
+            </tbody>
+         </table> -->
+
+         <!-- ================================
+         CCS
+         ===================================== -->
+         <!-- <h2 class="heading-medium">CCS</h2>
+         <table>
+            <thead>
+               <tr>
+                  <th>Journey</th>
+                  <th>Link</th>
+                  <th>Description</th>
+               </tr>
+            </thead>
+            <tbody>
+               <tr>
+                  <td valign="top">
+                     Journey
+                  </td>
+                  <td valign="top">
+                     <a href="#">Link</a><br>
+                  </td>
+                  <td>
+                     Description
+                  </td>
+               </tr>
+            </tbody>
+         </table> -->
+      </div>
+   </div>
+</main>
+{% endblock %}
